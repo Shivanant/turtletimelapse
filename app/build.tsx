@@ -4,7 +4,7 @@ import { View, Text, StyleSheet, TouchableOpacity, Alert, ScrollView, TextInput,
 import { Directory, File } from "expo-file-system";
 import * as MediaLibrary from "expo-media-library";
 import { useLocalSearchParams, useRouter } from "expo-router";
-import { buildTimelapse } from "./lib/timelapse"; // keep if app/lib/timelapse.ts exists
+import { buildTimelapse } from "../lib/timelapse"; // keep if app/lib/timelapse.ts exists
 
 export default function BuildScreen() {
   const router = useRouter();
